@@ -6,7 +6,7 @@ import {Loader} from 'google-maps'
 import { useEffect, useRef } from 'react';
 import { getCurrentPosition } from './utils/geolocation';
 
-const GOOGLE_MAPS_API_KEY='AIzaSyCkudm9IGYH-1wh0VKdnc-MpC7zcQaSPbw'
+const GOOGLE_MAPS_API_KEY=''
 
 const loader = new Loader(GOOGLE_MAPS_API_KEY)
 
